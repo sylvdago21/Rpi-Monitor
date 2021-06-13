@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="4" number="39" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="4" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="0" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="0" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="MICROCHIP_MCP16331T-E-CH_0">
+                    <description>High-Voltage Input Integrated Switch Step-Down Regulator</description>
+                    <wire layer="51" y2="1.45" width="0.15" x2="-0.8" y1="-1.45" x1="-0.8"/>
+                    <wire layer="51" y2="1.45" width="0.15" x2="0.8" y1="1.45" x1="-0.8"/>
+                    <wire layer="51" y2="-1.45" width="0.15" x2="0.8" y1="1.45" x1="0.8"/>
+                    <wire layer="51" y2="-1.45" width="0.15" x2="-0.8" y1="-1.45" x1="0.8"/>
+                    <wire layer="39" y2="1.8" width="0.1" x2="-2.05" y1="-1.8" x1="-2.05"/>
+                    <wire layer="39" y2="1.8" width="0.1" x2="2.05" y1="1.8" x1="-2.05"/>
+                    <wire layer="39" y2="-1.8" width="0.1" x2="2.05" y1="1.8" x1="2.05"/>
+                    <wire layer="39" y2="-1.8" width="0.1" x2="-2.05" y1="-1.8" x1="2.05"/>
+                    <wire layer="21" y2="1.45" width="0.15" x2="-0.4" y1="-1.45" x1="-0.4"/>
+                    <wire layer="21" y2="1.45" width="0.15" x2="0.4" y1="1.45" x1="-0.4"/>
+                    <wire layer="21" y2="-1.45" width="0.15" x2="0.4" y1="1.45" x1="0.4"/>
+                    <wire layer="21" y2="-1.45" width="0.15" x2="-0.4" y1="-1.45" x1="0.4"/>
+                    <text layer="25" align="bottom-left" y="1.85" x="-1.853" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="0.95" x="-2.5" layer="21" radius="0.25" width="0.0"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="1.1" dy="0.6" y="0.95" x="-1.4" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="1.1" dy="0.6" y="0.0" x="-1.4" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="0" dx="1.1" dy="0.6" y="-0.95" x="-1.4" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="0" dx="1.1" dy="0.6" y="-0.95" x="1.4" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="0" dx="1.1" dy="0.6" y="0.0" x="1.4" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="0" dx="1.1" dy="0.6" y="0.95" x="1.4" rot="R0" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="MICROCHIP_MCP16331T-E-CH_0_0">
+                    <description>High-Voltage Input Integrated Switch Step-Down Regulator</description>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="2.54" y1="-22.86" x1="2.54"/>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="22.86" y1="-5.08" x1="2.54"/>
+                    <wire layer="94" y2="-22.86" width="0.254" x2="22.86" y1="-5.08" x1="22.86"/>
+                    <wire layer="94" y2="-22.86" width="0.254" x2="2.54" y1="-22.86" x1="22.86"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="2.54" y1="-7.62" x1="2.54"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="22.86" y1="-7.62" x1="22.86"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="2.54" y1="-15.24" x1="2.54"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="22.86" y1="-12.7" x1="22.86"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="22.86" y1="-15.24" x1="22.86"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="22.86" y1="-20.32" x1="22.86"/>
+                    <text layer="95" align="top-left" y="-2.54" x="2.54" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-27.94" x="2.54" rot="R0" size="2.54">MCP16331T-E/CH</text>
+                    <pin name="VIN" visible="both" length="middle" y="-7.62" x="-2.54"/>
+                    <pin name="BOOST" visible="both" length="middle" y="-7.62" x="27.94" rot="R180"/>
+                    <pin name="EN" visible="both" length="middle" y="-15.24" x="-2.54"/>
+                    <pin name="SW" visible="both" length="middle" y="-12.7" x="27.94" rot="R180"/>
+                    <pin name="VFB" visible="both" length="middle" y="-15.24" x="27.94" rot="R180"/>
+                    <pin name="GND" visible="both" length="middle" y="-20.32" x="27.94" rot="R180"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="U" name="MICROCHIP_MCP16331T-E-CH">
+                    <description>High-Voltage Input Integrated Switch Step-Down Regulator</description>
+                    <gates>
+                        <gate name="G$0" symbol="MICROCHIP_MCP16331T-E-CH_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="MICROCHIP_MCP16331T-E-CH_0_0" package="MICROCHIP_MCP16331T-E-CH_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="BOOST"/>
+                                <connect gate="G$0" pad="2" pin="GND"/>
+                                <connect gate="G$0" pad="3" pin="VFB"/>
+                                <connect gate="G$0" pad="4" pin="EN"/>
+                                <connect gate="G$0" pad="5" pin="VIN"/>
+                                <connect gate="G$0" pad="6" pin="SW"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="MPN" value="MCP16331T-E/CH"/>
+                                    <attribute name="mouser_part_number" value="579-MCP16331T-E/CH"/>
+                                    <attribute name="package" value="SOT-23-6"/>
+                                    <attribute name="digikey_description" value="IC REG BUCK ADJ 0.5A SOT23-6"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="digikey_part_number" value="MCP16331T-E/CHCT-ND"/>
+                                    <attribute name="lead_free" value="yes"/>
+                                    <attribute name="rohs" value="yes"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="MF" value="Microchip"/>
+                                    <attribute name="voltage" value=""/>
+                                    <attribute name="temperature_range_low" value="-40°C"/>
+                                    <attribute name="temperature_range_high" value="+125°C"/>
+                                    <attribute name="datasheet" value="http://ww1.microchip.com/downloads/en/DeviceDoc/20005308B.pdf"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
